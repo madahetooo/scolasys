@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Scolasys</string>
+    <string name="which_language_you_prefer">Which Language you prefer ?</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="scolasys">Scolasys</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mainLogo"
+        android:src="@drawable/mainlogo2"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+
+
+
+    <Button
+        android:id="@+id/btn_En"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainLogo"
+        android:layout_centerHorizontal="true"
+        android:background="#07205a"
+        android:textColor="#fff"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="@string/english"
+        android:textSize="@dimen/_14sdp" />
+    <Button
+        android:id="@+id/btn_Ar"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_En"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="@string/arabic"
+        android:background="#1e644a"
+        android:textColor="#fff"
+        android:textSize="@dimen/_14sdp" />
+</RelativeLayout>
