@@ -8,7 +8,7 @@
     tools:context=".SplashScreen">
     <ImageView
         android:id="@+id/mainLogo2"
-        android:src="@drawable/mainlogo2"
+        android:src="@drawable/ic_app_logo"
         android:layout_width="@dimen/_250sdp"
         android:layout_height="@dimen/_250sdp"
         android:layout_centerHorizontal="true"
