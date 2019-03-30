@@ -4,4 +4,10 @@
     <string name="english">English</string>
     <string name="arabic">Arabic</string>
     <string name="scolasys">Scolasys</string>
+    <string name="heading">HEADING</string>
+    <string name="description">Scolasys is a system provided by Touch for Information Technology by which schools can manage both the academic and the administrative side. The user of this system can move easily between modules by using its mobile application.</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
 </resources>

@@ -18,3 +18,5 @@ WebView ScolasysWebView;
         ScolasysWebView.loadUrl("http://mob.scolasys.com/");
     }
 }
+
+
