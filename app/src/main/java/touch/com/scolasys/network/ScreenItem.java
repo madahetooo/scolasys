@@ -1,4 +1,4 @@
-package touch.com.scolasys;
+package touch.com.scolasys.network;
 
 
 public class ScreenItem {

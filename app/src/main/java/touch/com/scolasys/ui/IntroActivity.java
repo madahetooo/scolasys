@@ -1,4 +1,4 @@
-package touch.com.scolasys;
+package touch.com.scolasys.ui;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -16,6 +16,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import touch.com.scolasys.R;
+import touch.com.scolasys.network.ScreenItem;
+import touch.com.scolasys.adapters.IntroViewPagerAdapter;
 
 public class IntroActivity extends AppCompatActivity {
 

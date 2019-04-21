@@ -1,4 +1,4 @@
-package touch.com.scolasys;
+package touch.com.scolasys.adapters;
 
 
 import android.content.Context;
@@ -11,6 +11,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
+
+import touch.com.scolasys.R;
+import touch.com.scolasys.network.ScreenItem;
 
 public class IntroViewPagerAdapter extends PagerAdapter {
 

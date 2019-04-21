@@ -1,9 +1,11 @@
-package touch.com.scolasys;
+package touch.com.scolasys.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+
+import touch.com.scolasys.R;
 
 public class SplashScreen extends AppCompatActivity {
     TextView Scolasys;

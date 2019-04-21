@@ -1,9 +1,11 @@
-package touch.com.scolasys;
+package touch.com.scolasys.network;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import touch.com.scolasys.R;
 
 public class Home extends AppCompatActivity {
 WebView ScolasysWebView;
@@ -15,7 +17,7 @@ WebView ScolasysWebView;
         ScolasysWebView=findViewById(R.id.webViewScolasys);
         ScolasysWebView.getSettings().setJavaScriptEnabled(true);
         ScolasysWebView.setWebViewClient(new WebViewClient());
-        ScolasysWebView.loadUrl("http://mob.scolasys.com/");
+        ScolasysWebView.loadUrl("https://isms.scolasys.com/");
     }
 }
 

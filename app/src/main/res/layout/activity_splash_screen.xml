@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
-    tools:context=".SplashScreen">
+    tools:context=".ui.SplashScreen">
     <ImageView
         android:id="@+id/mainLogo2"
         android:src="@drawable/ic_app_logo"
