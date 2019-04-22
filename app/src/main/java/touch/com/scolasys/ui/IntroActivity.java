@@ -73,13 +73,13 @@ public class IntroActivity extends AppCompatActivity {
 
         final List<ScreenItem> mList = new ArrayList<>();
         mList.add(new ScreenItem("Family",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",
+                "Scolasys helps parents to follow up with school about their kids & communicate with school",
                 R.drawable.familly));
         mList.add(new ScreenItem("Student",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",
+                "Scolasys helps students how to do their assignments & how to get their materials easily",
                 R.drawable.student));
         mList.add(new ScreenItem("Teacher",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",
+                "Scolasys help teachers with time management & how to finish their tasks",
                 R.drawable.teacher));
 
         // setup viewpager
